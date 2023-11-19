@@ -28,7 +28,7 @@ public class task_two {
             }
         
     }
-    // Nooting
+    // Nooting..
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String s;
