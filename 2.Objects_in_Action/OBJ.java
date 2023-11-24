@@ -1,3 +1,5 @@
+// import java.time.Year;
+
 class Rectangle{
     double length ,width;
     Rectangle(double length ,double width){
@@ -39,7 +41,33 @@ class Car{
     String brand,model;
     int year;
     Car(String brand,String model,int year){
-        
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+    void printData(){
+        System.out.println("Brand = "+brand);
+        System.out.println("Model = "+model);
+        System.out.println("Year = "+year);
+    }
+}
+
+class Student{
+    String name, rollNumber,program ;
+    int batch;
+
+    Student(String name,String rollNumber,String program,int batch){
+        this.name = name;
+        this.rollNumber = rollNumber;
+        this.program = program;
+        this.batch = batch;
+    }
+
+    void printData(){
+        System.out.println("Name = "+name);
+        System.out.println("Roll Number = "+rollNumber);
+        System.out.println("Year = "+program);
+        System.out.println("Batch = "+batch);
     }
 }
 
