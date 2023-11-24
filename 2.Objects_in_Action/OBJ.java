@@ -91,5 +91,4 @@ public class OBJ {
         Student student  = new Student("Irfan", "150", "CSE", 60);
         student.printData();
     }
-    // Hello  f
 }
