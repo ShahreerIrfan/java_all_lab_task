@@ -33,3 +33,7 @@ class BankAccount {
         return balance * interestRate;
     }
 }
+<<<<<<< HEAD
+=======
+//.........
+>>>>>>> 0fce85bbd96db3ce4b02f4154155b26cbc71a8b1
