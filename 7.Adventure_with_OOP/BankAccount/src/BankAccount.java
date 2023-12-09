@@ -20,7 +20,7 @@ class BankAccount {
             balance -= amount;
             System.out.println("Withdrawn: ৳" + amount);
         } else {
-            System.out.println("Insufficient funds");
+            System.out.println("Insufficient balance");
         }
         displayBalance();
     }
@@ -33,4 +33,3 @@ class BankAccount {
         return balance * interestRate;
     }
 }
-//

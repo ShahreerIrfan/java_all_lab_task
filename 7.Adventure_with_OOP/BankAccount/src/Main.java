@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // Create objects using the classes
-        SavingsAccount savingsAccount = new SavingsAccount("SA123", 1000);
-        DpsAccount dpsAccount = new DpsAccount("DPS456", 2000);
-        FixedDepositAccount fixedDepositAccount = new FixedDepositAccount("FD789", 3000, 12);
+        SavingsAccount savingsAccount = new SavingsAccount("Irfan", 1000);
+        DpsAccount dpsAccount = new DpsAccount("Sabbir", 2000);
+        FixedDepositAccount fixedDepositAccount = new FixedDepositAccount("Joy", 3000, 12);
 
         System.out.println("Savings Account Information...");
         savingsAccount.deposit(500);
