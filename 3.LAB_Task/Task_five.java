@@ -10,7 +10,7 @@ public class Task_five {
         }
         return maximum;
     }
-    // This is main function
+
     public static void main(String[] args) {
         int n;
         Scanner input = new Scanner(System.in);
