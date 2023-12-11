@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E2ECE9;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.currency.converter.currencyconverter.CurrencyConverterController">
+   <children>
+      <Label layoutX="204.0" layoutY="97.0" style="-fx-font-size: 22px; -fx-font-family: fantasy;" text="Currency Converter" textFill="#0e6ba8" />
+      <Label layoutX="245.0" layoutY="138.0" text="Enter the ammount:" textFill="#0e6ba8" />
+      <TextField fx:id="amountField" alignment="CENTER" layoutX="224.0" layoutY="174.0" text="1" />
+      <Button layoutX="272.0" layoutY="222.0" mnemonicParsing="false" onAction="#converter" style="-fx-background-color: #0E6BA8;" text="Convert" textFill="WHITE" />
+      <Label fx:id="outputLavel" layoutX="265.0" layoutY="259.0" text="Output here" />
+   </children>
+</AnchorPane>
